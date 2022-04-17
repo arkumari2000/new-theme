@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New Theme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- custom stylesheet link -->
+        <link href="./styles.css" rel="stylesheet">
+
+        <!-- bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- google font link -->
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="hero-banner">
+            <img src="https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" class="banner-img" alt="buddha">
+            <nav class="navbar navbar-light banner-navbar" id="nav">
+                <div class="container-fluid">
+                  <a class="nav-link">Navbar</a>
+                  <div class="d-flex">
+                    <a class="nav-link">Classes</a>
+                    <a class="nav-link">About me</a>
+                    <a class="nav-link">Contact</a>
+                  </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="full-navbar hide"> 
+            <p>Navigation</p>
+            <hr class="hr-line">
+            <ul class="navbar-list">
+                <li class="navbar-list-item">
+                    <a>Classes</a>
+                </li>
+                <li class="navbar-list-item">
+                    <a>About me</a>
+                </li>
+                <li class="navbar-list-item">
+                    <a>Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="circular-button hide" onclick="toggleNav()">
+            <ion-icon name="list" id="nav-icon"></ion-icon>
+        </div>
+
+        <div>
+            <h1>CONTENT</h1>
+        </div>
+
+        <!-- bootstrap scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+        <!-- ionicons script -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!-- custom script -->
+        <script src="./script.js"></script>
+    </body>
+</html>
